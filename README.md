@@ -1,6 +1,6 @@
 # Ethscription Owner Fetcher
 
-This project is a Node.js script to fetch the owners of ethscription IDs from a specified API and save the results into a CSV file. It reads a list of ethscription IDs from a text file, queries the API for ownership information, and outputs the results in a structured CSV format.
+This project is a Node.js script to fetch the owners of ethscription IDs from the Ordex marketplace API and save the results into a CSV file. If an ethscription is owned by the ESCROW account, it will instead query the underlying owner (the wallet that escrowed the ethscription). It reads a list of ethscription IDs from a text file, queries the API for ownership information, and outputs the results in a structured CSV format.
 
 ## Features
 - Reads ethscription IDs from a text file.
