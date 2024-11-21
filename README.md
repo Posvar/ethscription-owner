@@ -17,8 +17,8 @@ This project is a Node.js script to fetch the owners of ethscription IDs from th
 
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-name>
+   git clone https://github.com/Posvar/ethscription-owner
+   cd ethscription-owner
 
 2. Install dependencies:
    ```bash
