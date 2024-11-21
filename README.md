@@ -23,7 +23,7 @@ This project is a Node.js script to fetch the owners of ethscription IDs from th
 2. Install dependencies:
    ```bash
    npm install
-3. Create an input text file named `ethscription_ids.txt` in the root directory. Add your ethscription Ids, one per line.
+3. Open the text file named `ethscription_ids.txt` and replace the placeholder ethscription_ids with the ids for your collection (one per line, no header). Save text file back to root (keep filename).
 4. Run the script
     ```bash
    node fetch_owners.js
